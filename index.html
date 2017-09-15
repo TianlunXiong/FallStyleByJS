@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>自己实现瀑布流</title>
+	<link rel="stylesheet" href="css/pbl1.css">
+	<script src="js/pb.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div class="box">
+			<div class="pic"><img src="images/1.jpg" alt="第1张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/2.jpg" alt="第2张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/3.jpg" alt="第3张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/4.jpg" alt="第4张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/5.jpg" alt="第5张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/6.jpg" alt="第6张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/7.jpg" alt="第7张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/8.jpg" alt="第8张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/9.jpg" alt="第9张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/10.jpg" alt="第10张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/11.jpg" alt="第11张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/12.jpg" alt="第12张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/13.jpg" alt="第13张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/14.jpg" alt="第14张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/15.jpg" alt="第15张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/16.jpg" alt="第16张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/17.jpg" alt="第17张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/18.jpg" alt="第18张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/19.jpg" alt="第19张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/20.jpg" alt="第20张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/21.jpg" alt="第21张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/22.jpg" alt="第22张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/23.jpg" alt="第23张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/24.jpg" alt="第24张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/25.jpg" alt="第25张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/26.jpg" alt="第26张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/27.jpg" alt="第27张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/28.jpg" alt="第28张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/29.jpg" alt="第29张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/30.jpg" alt="第30张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/31.jpg" alt="第31张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/32.jpg" alt="第32张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/33.jpg" alt="第33张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/34.jpg" alt="第34张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/35.jpg" alt="第35张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/36.jpg" alt="第36张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/37.jpg" alt="第37张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/38.jpg" alt="第38张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/39.jpg" alt="第39张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/40.jpg" alt="第40张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/41.jpg" alt="第41张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/42.jpg" alt="第42张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/43.jpg" alt="第43张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/44.jpg" alt="第44张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/45.jpg" alt="第45张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/46.jpg" alt="第46张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/47.jpg" alt="第47张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/48.jpg" alt="第48张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/49.jpg" alt="第49张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/50.jpg" alt="第50张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/51.jpg" alt="第51张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/52.jpg" alt="第52张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/53.jpg" alt="第53张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/54.jpg" alt="第54张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/55.jpg" alt="第55张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/56.jpg" alt="第56张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/57.jpg" alt="第57张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/58.jpg" alt="第58张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/59.jpg" alt="第59张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/60.jpg" alt="第60张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/61.jpg" alt="第61张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/62.jpg" alt="第62张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/63.jpg" alt="第63张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/64.jpg" alt="第64张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/65.jpg" alt="第65张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/66.jpg" alt="第66张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/67.jpg" alt="第67张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/68.jpg" alt="第68张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/69.jpg" alt="第69张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/70.jpg" alt="第70张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/71.jpg" alt="第71张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/72.jpg" alt="第72张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/73.jpg" alt="第73张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/74.jpg" alt="第74张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/75.jpg" alt="第75张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/76.jpg" alt="第76张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/77.jpg" alt="第77张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/78.jpg" alt="第78张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/79.jpg" alt="第79张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/80.jpg" alt="第80张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/81.jpg" alt="第81张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/82.jpg" alt="第82张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/83.jpg" alt="第83张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/84.jpg" alt="第84张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/85.jpg" alt="第85张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/86.jpg" alt="第86张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/87.jpg" alt="第87张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/88.jpg" alt="第88张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/89.jpg" alt="第89张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/90.jpg" alt="第90张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/91.jpg" alt="第91张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/92.jpg" alt="第92张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/93.jpg" alt="第93张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/94.jpg" alt="第94张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/95.jpg" alt="第95张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/96.jpg" alt="第96张图片"></div>
+		</div>
+		<div class="box">
+			<div class="pic"><img src="images/97.jpg" alt="第97张图片"></div>
+		</div>
+	</div>
+</body>
+</html>
